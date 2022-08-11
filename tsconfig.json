@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "paths": {
+      "~/*": [
+        "./src/*"
+      ]
+    },
+    "types": [
+      "naive-ui/volar"
+    ],
+  },
+  "exclude": [
+    "**/dist/**"
+  ]
+}
