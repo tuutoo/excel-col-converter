@@ -1,4 +1,5 @@
 # excel-col-converter
+## English | [中文](https://github.com/tuutoo/excel-col-converter/blob/main/README.zh-CN.md)
 
 This tool is built to convert excel column name and number back and force.
 
@@ -21,19 +22,19 @@ https://excel-col-converter.netlify.app/
  -  Iconify icon，support custom svg icons.
  -  Unocss.
 
-## Project Setup
+# Project Setup
 
 ```sh
 pnpm install
 ```
 
-### Compile and Hot-Reload for Development
+# Compile and Hot-Reload for Development
 
 ```sh
 pnpm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+# Type-Check, Compile and Minify for Production
 
 ```sh
 pnpm run build
@@ -57,8 +58,8 @@ tuutoo/xl-col-converter
 ```
 
 # Deploy App to Netlify
-Fork this repo
-Register a Netlify account
-Create a new site on Netlify
-Connect to your repo and it will auto deploy
-Done
+ 1. Fork this repo
+ 1. Register a Netlify account
+ 1. Create a new site on Netlify
+ 1. Connect to your repo and it will auto deploy
+ 1. Done
