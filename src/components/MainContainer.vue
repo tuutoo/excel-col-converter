@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import { NButton, NCard } from 'naive-ui'
-
+import { NCard } from 'naive-ui'
 import MainContent from './MainContent.vue'
 </script>
 
@@ -10,13 +9,7 @@ import MainContent from './MainContent.vue'
       <div flex="~ gap2" items-center justify-between>
         <span text-3xl ma-2>Online Excel Column Converter v2.2.0</span>
         <DarkSwitcher ma-2 />
-        <NButton
-          tag="a"
-          href="https://github.com/tuutoo/excel-col-converter"
-          target="_blank"
-        >
-          <i-ri-github-fill />
-        </NButton>
+        <GithubBtn />
       </div>
       <NCard embedded class="w-full sm:w-screen-sm">
         <MainContent />
