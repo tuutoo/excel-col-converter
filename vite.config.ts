@@ -7,6 +7,7 @@ import Icons from 'unplugin-icons/vite'
 import IconsResolver from 'unplugin-icons/resolver'
 import UnoCSS from 'unocss/vite'
 import { presetAttributify, presetIcons, presetUno } from 'unocss'
+import EnvironmentPlugin from 'vite-plugin-environment'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -14,6 +15,7 @@ export default defineConfig({
     host: '0.0.0.0',
   },
   plugins: [
+    EnvironmentPlugin('all'),
     Vue({
       reactivityTransform: true,
     }),

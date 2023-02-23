@@ -27,3 +27,8 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+
+# ignore env configuration
+.env
+.env.*
+*.local
