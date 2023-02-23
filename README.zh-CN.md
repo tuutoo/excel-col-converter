@@ -47,6 +47,19 @@ docker build -t [tuutoo]/xl-col-converter:v2.2.0 -t [tuutoo]/xl-col-converter:la
 
 # 本地运行docker进行测试
 docker run -p 80:80 -it --name xl-col-converter xl-col-converter
+
+# 把镜像推送到docker.io自己的仓库下
+docker push tuutoo/xl-col-converter:latest
+The push refers to repository [docker.io/tuutoo/xl-col-converter]
+cf4b0083cda3: Pushed
+a3592b80e453: Pushed
+7fbf7f6957d5: Pushed
+7ef61094715c: Pushed
+98e71313b6c2: Pushed
+78bf1b847806: Pushed
+d58d318d37eb: Pushed
+aa5968d388b8: Pushed
+latest: digest: sha256:31e603b8d999d745a2038f53e3e042a76ad04eeb8f6cc7d841ae34fca50fe416 size: 1985
 ```
 浏览器访问 http://localhost 测试
 
