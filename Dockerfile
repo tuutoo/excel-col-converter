@@ -1,8 +1,8 @@
-FROM node:16 as build-stage
+FROM node:18.4.0-alpine as build-stage
 
 WORKDIR /app
 
-RUN curl -f https://get.pnpm.io/v6.16.js | node - add --global pnpm
+RUN npm i -g pnpm
 
 # Files required by pnpm install
 COPY package.json pnpm-lock.yaml ./

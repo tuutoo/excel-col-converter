@@ -43,7 +43,8 @@ pnpm run build
 # Generate Docker image
 ```sh
 # Build docker image
-docker build -t xl-col-converter:v2.2.0 -t xl-col-converter:latest .
+# replace [tuutoo] with your repository name
+docker build -t [tuutoo]/xl-col-converter:v2.2.0 -t [tuutoo]/xl-col-converter:latest .
 
 # Run docker locally to test
 docker run -p 80:80 -it --name xl-col-converter xl-col-converter

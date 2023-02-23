@@ -42,7 +42,8 @@ pnpm run build
 # 生成 Docker 镜像
 ```sh
 # 构建docker镜像并打tag
-docker build -t xl-col-converter:v2.2.0 -t xl-col-converter:latest 。
+# 用你的仓库名称替换下面命令中的 [tuutoo]
+docker build -t [tuutoo]/xl-col-converter:v2.2.0 -t [tuutoo]/xl-col-converter:latest .
 
 # 本地运行docker进行测试
 docker run -p 80:80 -it --name xl-col-converter xl-col-converter
@@ -52,7 +53,7 @@ docker run -p 80:80 -it --name xl-col-converter xl-col-converter
 你也可以直接使用这个 docker 镜像：
 ```sh
 docker run -itd --name xl-col-converter \
--p 1253:80\
+-p 1253:80 \
 tuutoo/xl-col-converter
 ```
 
