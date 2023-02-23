@@ -3,7 +3,7 @@
 该工具旨在将excel列名和数字进行相互转换
 
 ＃ 预览
-https://excel-col-converter.netlify.app/
+https://excel-col-converter.vercel.app/
 
 ＃ 特点
  - 将excel列名和数字进行相互转换
@@ -56,9 +56,9 @@ docker run -itd --name xl-col-converter \
 tuutoo/xl-col-converter
 ```
 
-# 将应用程序部署到 Netlify
+# 将应用程序部署到 Vercel或者Netlify
  1. Fork这个仓库
- 1. 注册一个 Netlify 帐户
- 1. 在 Netlify 上创建一个新站点
+ 1. 注册一个 Vercel或者Netlify 帐户
+ 1. 在 Vercel或者Netlify 上创建一个新项目
  1. 连接到您Fork的存储库，它将自动部署
  1. 完事

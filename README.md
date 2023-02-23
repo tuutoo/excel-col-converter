@@ -4,7 +4,7 @@
 This tool is built to convert excel column name and number back and force.
 
 # Preview
-https://excel-col-converter.netlify.app/
+https://excel-col-converter.vercel.app/
 
 # Features
  -  Convert excel column name and number back and force
@@ -57,9 +57,9 @@ docker run -itd --name xl-col-converter \
 tuutoo/xl-col-converter
 ```
 
-# Deploy App to Netlify
+# Deploy App to Vercel/Netlify
  1. Fork this repo
- 1. Register a Netlify account
- 1. Create a new site on Netlify
+ 1. Register a Vercel/Netlify account
+ 1. Create a new project on Vercel/Netlify
  1. Connect to your repo and it will auto deploy
  1. Done
