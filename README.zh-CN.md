@@ -46,7 +46,7 @@ pnpm run build
 docker build -t [tuutoo]/xl-col-converter:v2.2.0 -t [tuutoo]/xl-col-converter:latest .
 
 # 本地运行docker进行测试
-docker run -p 80:80 -it --name xl-col-converter xl-col-converter
+docker run -p 80:80 -it --name xl-col-converter tuutoo/xl-col-converter
 
 # 把镜像推送到docker.io自己的仓库下
 docker push tuutoo/xl-col-converter:latest

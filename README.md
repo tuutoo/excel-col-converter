@@ -47,7 +47,7 @@ pnpm run build
 docker build -t [tuutoo]/xl-col-converter:v2.2.0 -t [tuutoo]/xl-col-converter:latest .
 
 # Run docker locally to test
-docker run -p 80:80 -it --name xl-col-converter xl-col-converter
+docker run -p 80:80 -it --name xl-col-converter tuutoo/xl-col-converter
 
 # Push your docker image to docker.io
 docker push tuutoo/xl-col-converter:latest
