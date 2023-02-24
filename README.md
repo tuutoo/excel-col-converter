@@ -5,6 +5,7 @@ This tool is built to convert excel column name and number back and force.
 
 # Preview
 https://excel-col-converter.vercel.app/
+https://excel-col-converter.netlify.app/
 
 # Features
  -  Convert excel column name and number back and force

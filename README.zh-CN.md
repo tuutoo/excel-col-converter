@@ -4,6 +4,7 @@
 
 ＃ 预览
 https://excel-col-converter.vercel.app/
+https://excel-col-converter.netlify.app/
 
 ＃ 特点
  - 将excel列名和数字进行相互转换
