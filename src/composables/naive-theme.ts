@@ -8,7 +8,6 @@ export const lightThemeOverrides: GlobalThemeOverrides = {
     primaryColorSuppl: '#40a9ff',
   },
   Input: {
-    placeholderColor: 'rgb(51, 54, 57)',
     textColorDisabled: 'rgb(51, 54, 57)',
   },
 }
@@ -21,7 +20,6 @@ export const darkThemeOverrides: GlobalThemeOverrides = {
     primaryColorSuppl: '#096dd9',
   },
   Input: {
-    placeholderColor: 'rgba(255, 255, 255, 0.82)',
     textColorDisabled: 'rgba(255, 255, 255, 0.82)',
   },
 }
