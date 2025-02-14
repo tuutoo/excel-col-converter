@@ -5,6 +5,6 @@ import 'uno.css'
 
 createApp(App)
   .use(VueGtag, {
-    config: { id: import.meta.env.APP_GTAG_ID },
+    config: { id: import.meta.env.VITE_APP_GTAG_ID },
   })
   .mount('#app')

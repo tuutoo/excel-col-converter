@@ -9,23 +9,23 @@ importers:
   .:
     dependencies:
       vue:
-        specifier: ^3.2.47
+        specifier: ^3.5.13
         version: 3.5.13(typescript@5.7.3)
       vue-gtag:
-        specifier: ^2.0.1
+        specifier: ^2.1.0
         version: 2.1.0(vue@3.5.13(typescript@5.7.3))
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^4.2.0
         version: 4.2.0(@typescript-eslint/utils@8.24.0(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3))(@unocss/eslint-plugin@65.4.3(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3))(@vue/compiler-sfc@3.5.13)(eslint-plugin-format@1.0.1(eslint@9.20.1(jiti@2.4.2)))(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3)
       '@commitlint/cli':
-        specifier: ^17.4.4
+        specifier: ^17.8.1
         version: 17.8.1
       '@commitlint/config-conventional':
-        specifier: ^17.4.4
+        specifier: ^17.8.1
         version: 17.8.1
       '@iconify-json/ri':
-        specifier: ^1.1.5
+        specifier: ^1.2.5
         version: 1.2.5
       '@types/node':
         specifier: ^22.13.4
@@ -49,7 +49,7 @@ importers:
         specifier: ^8.9.4
         version: 8.9.4(vue@3.5.13(typescript@5.7.3))
       commitizen:
-        specifier: ^4.3.0
+        specifier: ^4.3.1
         version: 4.3.1(@types/node@22.13.4)(typescript@5.7.3)
       cz-conventional-changelog:
         specifier: ^3.3.0
@@ -70,7 +70,7 @@ importers:
         specifier: ^4.1.5
         version: 4.1.5
       sass:
-        specifier: ^1.58.3
+        specifier: ^1.85.0
         version: 1.85.0
       typescript:
         specifier: ^5.7.3
@@ -90,9 +90,6 @@ importers:
       vite:
         specifier: ^6.1.0
         version: 6.1.0(@types/node@22.13.4)(jiti@2.4.2)(sass@1.85.0)(tsx@4.19.2)(yaml@2.7.0)
-      vite-plugin-environment:
-        specifier: ^1.1.3
-        version: 1.1.3(vite@6.1.0(@types/node@22.13.4)(jiti@2.4.2)(sass@1.85.0)(tsx@4.19.2)(yaml@2.7.0))
       vue-tsc:
         specifier: ^0.38.9
         version: 0.38.9(typescript@5.7.3)
@@ -3694,11 +3691,6 @@ packages:
     resolution: {integrity: sha512-H9V1zGRLQZg9b+GdMk8MXDN2Lva0zx72MPahDKc30v+DtwKjfyOSXWRIX4t2mhDubM1H09gPhWeth/BJWPHGUw==}
     peerDependencies:
       vue: ^3.0.11
-
-  vite-plugin-environment@1.1.3:
-    resolution: {integrity: sha512-9LBhB0lx+2lXVBEWxFZC+WO7PKEyE/ykJ7EPWCq95NEcCpblxamTbs5Dm3DLBGzwODpJMEnzQywJU8fw6XGGGA==}
-    peerDependencies:
-      vite: '>= 2.7'
 
   vite@6.1.0:
     resolution: {integrity: sha512-RjjMipCKVoR4hVfPY6GQTgveinjNuyLw+qruksLDvA5ktI1150VmcMBKmQaEWJhg/j6Uaf6dNCNA0AfdzUb/hQ==}
@@ -8012,10 +8004,6 @@ snapshots:
     dependencies:
       evtd: 0.2.4
       vue: 3.5.13(typescript@5.7.3)
-
-  vite-plugin-environment@1.1.3(vite@6.1.0(@types/node@22.13.4)(jiti@2.4.2)(sass@1.85.0)(tsx@4.19.2)(yaml@2.7.0)):
-    dependencies:
-      vite: 6.1.0(@types/node@22.13.4)(jiti@2.4.2)(sass@1.85.0)(tsx@4.19.2)(yaml@2.7.0)
 
   vite@6.1.0(@types/node@22.13.4)(jiti@2.4.2)(sass@1.85.0)(tsx@4.19.2)(yaml@2.7.0):
     dependencies:
