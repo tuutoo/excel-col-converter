@@ -8,7 +8,7 @@ const toggleDark = useToggle(isDark)
   <NButton
     @click="toggleDark()"
   >
-    <i-ri-sun-line v-if="isDark.value" />
+    <i-ri-sun-line v-if="isDark" />
     <i-ri-moon-line v-else />
   </NButton>
 </template>

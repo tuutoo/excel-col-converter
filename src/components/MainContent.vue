@@ -1,19 +1,19 @@
 <script setup lang="ts">
-import { NButton, NCollapse, NCollapseItem, NForm, NFormItem, NInput, NInputNumber, NSpace } from 'naive-ui'
+import { NButton, NCollapse, NCollapseItem, NForm, NFormItem, NInput, NSpace } from 'naive-ui'
 
 const activeKey = ref(['1', '2', '3'])
 
-const singleColumnName = $ref('')
-const singleColumnNumber = $ref(null)
-const multiColumnNames = $ref('')
-const multiColumnNumbers = $ref('')
+const singleColumnName = ref('')
+const singleColumnNumber = ref(null)
+const multiColumnNames = ref('')
+const multiColumnNumbers = ref('')
 
 const convertedColumnNumber = computed(() => {
-  return ColumnNameToNumber(singleColumnName).toString()
+  return ColumnNameToNumber(singleColumnName.value).toString()
 })
 
 const convertedColumnName = computed(() => {
-  return ColumnNumberToString(singleColumnNumber)
+  return ColumnNumberToString(singleColumnNumber.value)
 })
 
 const onlyAllowString = (value: string) => !value || /^[a-zA-Z]+$/.test(value)
