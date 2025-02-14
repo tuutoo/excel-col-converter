@@ -1,5 +1,6 @@
 {
   "name": "excel-col-converter",
+  "type": "module",
   "version": "2.2.1",
   "scripts": {
     "lint": "eslint .",
