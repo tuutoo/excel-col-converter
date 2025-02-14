@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
+    "jsx": "preserve",
+    "baseUrl": ".",
     "module": "es2022",
     "moduleResolution": "Node",
-    "baseUrl": ".",
-    "jsx": "preserve",
     "paths": {
       "~/*": [
         "./src/*"
@@ -11,7 +11,7 @@
     },
     "types": [
       "naive-ui/volar"
-    ],
+    ]
   },
   "exclude": [
     "**/dist/**"

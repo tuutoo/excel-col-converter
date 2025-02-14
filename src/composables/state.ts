@@ -1,8 +1,9 @@
-const toNumberReducer = (prev, curr, currentIndex) =>
-  prev + curr * 26 ** currentIndex
+function toNumberReducer(prev, curr, currentIndex) {
+  return prev + curr * 26 ** currentIndex
+}
 
 export function ColumnNameToNumber(str: string) {
-  const pattern = /[^A-Za-z]+/gi
+  const pattern = /[^A-Z]+/i
 
   const isNotChar = pattern.test(str)
 

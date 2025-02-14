@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { NConfigProvider, NGlobalStyle, darkTheme, GlobalThemeOverrides } from 'naive-ui'
+import type { GlobalThemeOverrides } from 'naive-ui'
+import { darkTheme, NConfigProvider, NGlobalStyle } from 'naive-ui'
 import MainContainer from './components/MainContainer.vue'
 
 const darkThemeOverrides: GlobalThemeOverrides = {

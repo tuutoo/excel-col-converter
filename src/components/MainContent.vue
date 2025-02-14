@@ -16,7 +16,7 @@ const convertedColumnName = computed(() => {
   return ColumnNumberToString(singleColumnNumber.value)
 })
 
-const onlyAllowString = (value: string) => !value || /^[a-zA-Z]+$/.test(value)
+const onlyAllowString = (value: string) => !value || /^[a-z]+$/i.test(value)
 const onlyAllowNumber = (value: string) => !value || /^\d+$/.test(value)
 </script>
 
@@ -115,7 +115,8 @@ const onlyAllowNumber = (value: string) => !value || /^\d+$/.test(value)
 </template>
 
 <style scoped>
-.uppercase :deep(.n-input__input-el),.uppercase :deep(.n-input__textarea-el) {
+.uppercase :deep(.n-input__input-el),
+.uppercase :deep(.n-input__textarea-el) {
   text-transform: uppercase;
 }
 </style>
