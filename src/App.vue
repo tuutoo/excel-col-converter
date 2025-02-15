@@ -5,6 +5,7 @@ import MainContainer from './components/MainContainer.vue'
 
 const darkThemeOverrides: GlobalThemeOverrides = {
   common: {
+    bodyColor: 'rgb(29, 33, 40)',
     primaryColor: '#40a9ff',
     primaryColorHover: '#1890ff',
     primaryColorPressed: '#40a9ff',
