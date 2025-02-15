@@ -21,6 +21,7 @@ const options = [
 async function chooseLocale(locale: Locales) {
   await loadLocaleAsync(locale)
   setLocale(locale)
+  localStorage.setItem('LANG', locale)
 }
 </script>
 

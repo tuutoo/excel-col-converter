@@ -10,7 +10,7 @@ const { LL } = typesafeI18n()
   <div class="mx-auto w-screen">
     <div class="flex flex-col items-center">
       <div flex="~ gap2" items-center justify-between>
-        <span text-3xl ma-2>{{ LL.title() }} v3.0.0</span>
+        <span text-3xl ma-2>{{ LL.title() }} v3.0.1</span>
         <LanguageSelector />
         <DarkSwitcher />
         <GithubBtn />
