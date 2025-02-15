@@ -1,22 +1,20 @@
 {
   "name": "excel-col-converter",
   "type": "module",
-  "version": "2.2.1",
+  "version": "3.0.0",
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "dev": "vite",
+    "dev": "npm-run-all --parallel vite typesafe-i18n",
+    "vite": "vite",
     "build": "vite build",
     "preview": "vite preview --port 4173",
     "prepare": "husky install",
-    "commit": "cz"
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
+    "commit": "cz",
+    "typesafe-i18n": "typesafe-i18n"
   },
   "dependencies": {
+    "typesafe-i18n": "^5.26.2",
     "vue": "^3.5.13",
     "vue-gtag": "^2.1.0"
   },
@@ -24,9 +22,11 @@
     "@antfu/eslint-config": "^4.2.0",
     "@commitlint/cli": "^17.8.1",
     "@commitlint/config-conventional": "^17.8.1",
+    "@iconify-json/mdi": "^1.2.3",
     "@iconify-json/ri": "^1.2.5",
     "@types/node": "^22.13.4",
     "@unocss/eslint-plugin": "^65.4.3",
+    "@unocss/preset-icons": "^65.4.3",
     "@unocss/reset": "^0.44.7",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vitejs/plugin-vue-jsx": "^4.1.1",
@@ -47,6 +47,13 @@
     "unplugin-vue-components": "^28.0.0",
     "vite": "^6.1.0",
     "vue-tsc": "^0.38.9"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "esbuild",
+      "vue-demi"
+    ]
   },
   "husky": {
     "hooks": {

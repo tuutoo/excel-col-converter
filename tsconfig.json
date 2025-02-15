@@ -5,9 +5,9 @@
     "module": "es2022",
     "moduleResolution": "Node",
     "paths": {
-      "~/*": [
-        "./src/*"
-      ]
+      "@/*": ["src/*"], // 对应 alias: { find: '@', replacement: path.resolve(__dirname, 'src') }
+      "_c/*": ["components/*"], // 对应 alias: { find: '_c', replacement: path.resolve(__dirname, 'components') }
+      "_conf/*": ["config/*"] // 对应 alias: { find: '_conf', replacement: path.resolve(__dirname, 'config') }
     },
     "types": [
       "naive-ui/volar"

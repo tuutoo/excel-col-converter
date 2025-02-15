@@ -1,3 +1,4 @@
+import * as path from 'node:path'
 import Vue from '@vitejs/plugin-vue'
 import VueJsx from '@vitejs/plugin-vue-jsx'
 import { presetAttributify, presetIcons, presetUno } from 'unocss'
@@ -14,6 +15,22 @@ export default defineConfig({
     host: '0.0.0.0',
     open: true,
   },
+  resolve: {
+    alias: [
+      {
+        find: '@',
+        replacement: path.resolve(__dirname, 'src'),
+      },
+      {
+        find: '_c',
+        replacement: path.resolve(__dirname, 'components'),
+      },
+      {
+        find: '_conf',
+        replacement: path.resolve(__dirname, 'config'),
+      },
+    ],
+  },
   plugins: [
     Vue({
       reactivityTransform: true,
@@ -25,7 +42,7 @@ export default defineConfig({
         // Auto register icon components
         // 自动注册图标组件
         IconsResolver({
-          enabledCollections: ['ri'],
+          enabledCollections: ['ri', 'mdi'],
         }),
       ],
     }),
