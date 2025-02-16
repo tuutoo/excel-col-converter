@@ -18,5 +18,6 @@ declare module 'vue' {
     LanguageSelector: typeof import('./src/components/LanguageSelector.vue')['default']
     MainContainer: typeof import('./src/components/MainContainer.vue')['default']
     MainContent: typeof import('./src/components/MainContent.vue')['default']
+    NavBar: typeof import('./src/components/NavBar.vue')['default']
   }
 }
