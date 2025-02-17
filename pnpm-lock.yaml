@@ -14,9 +14,9 @@ importers:
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.7.3)
-      vue-gtag:
-        specifier: ^2.1.0
-        version: 2.1.0(vue@3.5.13(typescript@5.7.3))
+      vue-gtag-next:
+        specifier: ^1.14.0
+        version: 1.14.0(vue@3.5.13(typescript@5.7.3))
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^4.2.0
@@ -3777,10 +3777,10 @@ packages:
     peerDependencies:
       vue: ^3.4.37
 
-  vue-gtag@2.1.0:
-    resolution: {integrity: sha512-lnEiHtNkw37lUug36n023uYWRaFz7s2Wk12G+hdzrTKwWwTBuq0Mcd5e0zH65aKPZRWT+51C6LUHZShpTPiMng==}
+  vue-gtag-next@1.14.0:
+    resolution: {integrity: sha512-iJl+cOG2GU5NuxqzSSIpt03WVOvZqyKB9TOy7d55KiuvRklcnb2nlqxW5B/a3/sbIt7fla+XEkRyMCcoz0zAHw==}
     peerDependencies:
-      vue: ^3.0.0
+      vue: ^3.0.0-rc.11
 
   vue-tsc@0.38.9:
     resolution: {integrity: sha512-Yoy5phgvGqyF98Fb4mYqboR4Q149jrdcGv5kSmufXJUq++RZJ2iMVG0g6zl+v3t4ORVWkQmRpsV4x2szufZ0LQ==}
@@ -8070,7 +8070,7 @@ snapshots:
     dependencies:
       vue: 3.5.13(typescript@5.7.3)
 
-  vue-gtag@2.1.0(vue@3.5.13(typescript@5.7.3)):
+  vue-gtag-next@1.14.0(vue@3.5.13(typescript@5.7.3)):
     dependencies:
       vue: 3.5.13(typescript@5.7.3)
 
